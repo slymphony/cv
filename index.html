@@ -1,0 +1,109 @@
+<!-- Developing a personal website based on Jon Kleinberg's webpage
+    http://www.cs.cornell.edu/home/kleinber/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sylvester's Personal Website</title>
+</head>
+<body>
+    <!-- Using a table to copy the layout of image and description on Jon Kleinberg's webpage -->
+    <table cellspacing="20">
+        <td> 
+            <!-- Adding an image using a local source -->
+            <img src="sylvester-modified.png" alt="Sylvester's profile picture">
+        </td>
+        <td>
+            <!-- Level 1 heading that contains name -->
+            <h1>Sylvester Jerome D'souza</h1>
+
+            <!-- Single line description using paragraph tag -->
+            <!-- <p>Founder of Mixtape Labs</p> -->    
+
+            <!-- Emphasizing description using <em>
+                Highlighting importance of text by rendering in bold format using <strong>
+                Implementing nesting -->
+            <em>Founder of <strong>Mixtape Labs</strong></em>
+
+            <!-- Bio description -->
+            <p>A dropout master student forging his path by indulging in statistics (<i><a href="https://github.com/rmcelreath/stat_rethinking_2022">McElreath</a></i>), finance (<i>Rich Dad series</i>), mathematics (<i><a href="https://calculus123.com/wiki/Calculus_Illustrated">Saveliev's Calculus</a></i> and <i><a href="https://github.com/mikexcohen/LinAlgCourse">Cohen's Linear Algebra</a></i>), physics (<i><a href="https://www.howeverythingworks.org/HEW1eBI.html">Bloomfield</a></i>), and programming-related content (languages such as <i>C</i> and <i>Python</i>, software libraries such as <i>NumPy</i> and <i>SciPy</i>, and compilers).</p>
+        </td>
+    </table>
+    
+    <!-- Horizontal line -->
+    <hr size="3" noshade> 
+
+    <!-- Education using an h3 section heading -->
+    <h3>Education</h3>
+    <!-- Expressing timeline of schools attended as a bulleted list -->
+    <ul>
+        <li>1997-2000: Indian Ladies Association, Abu Dhabi, U.A.E.</li>
+        <li>2000-2006: St. Joseph's School, Abu Dhabi, U.A.E.</li>
+        <li>2006-2012: Abu Dhabi Indian School, Abu Dhabi, U.A.E.</li>
+        <li>2012-2016: National Institute of Technology Karnataka, Surathkal, India</li>
+        <li>2018-2023: Katholieke Universiteit Leuven, Leuven, Belgium</li>
+    </ul>
+
+    <hr size="3" noshade>
+
+    <!-- Using a table to highlight work experience -->
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>May, 2014</td>
+            <td>Summer internship at Weatherford Ltd., Mumbai, India</td>
+        </tr>
+        <tr>
+            <td>August, 2016 to August, 2018</td>
+            <td>Graduate Engineer Trainee at Mahindra Electric Mobility Ltd, Bengaluru, India</td>
+        </tr>
+    </table>
+
+    <hr size="3" noshade>
+
+    <!-- Code challenge: display skills and their ratings side-by-side using a table -->
+    <h3>Skills</h3>
+    <table cellspacing="10"> <!-- Defining a border to check if the defined table matches that of the challenge in Lecture 23 -->
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Python</td>
+                        <td>★★★☆☆</td>
+                    </tr>
+                    <tr>
+                        <td>MATLAB</td>
+                        <td>★★☆☆☆</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Web development</td>
+                        <td>★★☆☆☆</td>
+                    </tr>
+                    <tr>
+                        <td>R</td>
+                        <td>★★☆☆☆</td>
+                    </tr>
+                </table>
+            </td>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="3" noshade> 
+    
+    <!-- Using anchor tag to link a local HTML page -->
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact-me.html">Contact Me</a>
+</body>
+</html>
